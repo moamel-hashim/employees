@@ -1,1 +1,13 @@
-<h1>working component</h1>
+<div>
+  <h1>Welcome to {{title}}</h1>
+</div>
+
+<nav>
+  <a [routerLink]="['/home']"><span>Home</span></a>
+  <a [routerLink]="['/employee']"><span>Employee</span></a>
+  <a [routerLink]="['/counter']"><span>Counter</span></a>
+  <a [routerLink]="['/fetch-data']"><span>Fetch Data</span></a>
+</nav>
+<hr>
+<router-outlet></router-outlet>
+<hr>
